@@ -1,5 +1,8 @@
 <template>
-    {{ game.title }}
+    <div class="game mt-3">
+        <p class="m-0"><b>Title</b>: {{ game.title }}</p>
+        <p><b>Released</b>: {{ game.releaseDate }}</p>
+    </div>
 </template>
 
 <script>

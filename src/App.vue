@@ -7,6 +7,8 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue';
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default {
   name: 'App',
@@ -19,11 +21,5 @@ export default {
 <style>
   * {
     margin: 0;
-  }
-
-  .container {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 15px;
   }
 </style>
